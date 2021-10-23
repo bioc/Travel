@@ -208,24 +208,6 @@ next section, we will show you how to formally build your own ALTREP object
 using Travel package.
 
 # Travel tutorial
-## Dependencies
-There are a few dependencies you need to install for using the package.
-
-For *Windows*:
-
-1. [Dokan](https://dokan-dev.github.io/)
-
-It is recommended to download `DokanSetup-noVC.exe` for this is the library that
-the Travel package has been tested with.
-
-For *Linux* and *Mac*:
-
-1. [fuse](https://github.com/libfuse/libfuse)
-2. [pkg-config](https://github.com/pkgconf/pkgconf)
-
-
-
-## Use Travel
 Travel is written by C++, for making the Travel header available, you need to
 add `Travel` to the `LinkingTo` field of the DESCRIPTION file, e.g.
 ```

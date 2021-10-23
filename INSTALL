@@ -1,0 +1,15 @@
+For using Travel, you need to install its dependences.
+
+For *Windows*:
+
+1. [Dokan](https://dokan-dev.github.io/)
+
+It is recommended to download `DokanSetup-noVC.exe` for this is the library that
+the Travel package has been tested with.
+
+For *Linux* and *Mac*:
+
+1. [fuse](https://github.com/libfuse/libfuse)
+2. [pkg-config](https://github.com/pkgconf/pkgconf)
+
+Once the required library has been installed, the package should be able to compile and link against them automatically.
