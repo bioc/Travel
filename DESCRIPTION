@@ -1,8 +1,13 @@
 Package: Travel
 Title: An utility to create an ALTREP object with a virtual pointer
-Version: 1.3.0
-Authors@R: person("Jiefei", "Wang", email = "szwjf08@gmail.com",
-                  role = c("aut", "cre"))
+Version: 1.3.1
+Authors@R: c(
+    person(
+        "Jiefei", "Wang",
+        email = "Martin.Morgan@RoswellPark.org",
+        role = c("aut", "cre")
+    ),
+    person("Martin", "Morgan", role = "aut"))
 Description: 
     Creates a virtual pointer for R's ALTREP object which does not 
     have the data allocates in memory. The pointer is made by the file 
