@@ -30,6 +30,13 @@ onExit <-function(e){
     pkg_data$pkg_unloaded <- TRUE
     library.dynam.unload("Travel", libpath)
 }
+.onAttach <- function(libname, pkgname) {
+    msg <- sprintf(
+        "Package '%s' is deprecated and will be removed from Bioconductor
+         version %s", pkgname, "3.19")
+    .Deprecated(msg=paste(strwrap(msg, exdent=2), collapse="\n"))
+}
+
 
 
 

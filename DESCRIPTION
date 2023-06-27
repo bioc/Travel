@@ -1,6 +1,6 @@
 Package: Travel
 Title: An utility to create an ALTREP object with a virtual pointer
-Version: 1.9.0
+Version: 1.9.1
 Authors@R: c(
     person(
         "Jiefei", "Wang",
@@ -42,4 +42,4 @@ Suggests:
 VignetteBuilder: knitr
 URL: https://github.com/Jiefei-Wang/Travel
 BugReports: https://github.com/Jiefei-Wang/Travel/issues
-
+PackageStatus: Deprecated
